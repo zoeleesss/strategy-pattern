@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="344.0">model.HighModel</node>
+    <node x="0.0" y="124.0">discount.PerDiscount</node>
+    <node x="152.0" y="344.0">model.LowModel</node>
+    <node x="242.5" y="0.0">discount.Discount</node>
+    <node x="380.0" y="216.0">GUI</node>
+    <node x="216.0" y="124.0">discount.ZeroDiscount</node>
+    <node x="68.0" y="220.0">model.Model</node>
+    <node x="432.0" y="124.0">discount.FivePercentDiscount</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.HighModel" target="model.Model">
+      <point x="0.0" y="-25.5" />
+      <point x="66.0" y="319.0" />
+      <point x="104.5" y="319.0" />
+      <point x="-36.5" y="37.0" />
+    </edge>
+    <edge source="model.LowModel" target="model.Model">
+      <point x="0.0" y="-25.5" />
+      <point x="216.0" y="319.0" />
+      <point x="177.5" y="319.0" />
+      <point x="36.5" y="37.0" />
+    </edge>
+    <edge source="discount.PerDiscount" target="discount.Discount">
+      <point x="0.0" y="-25.5" />
+      <point x="98.0" y="99.0" />
+      <point x="266.3333333333333" y="99.0" />
+      <point x="-47.666666666666686" y="37.0" />
+    </edge>
+    <edge source="discount.ZeroDiscount" target="discount.Discount">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="discount.FivePercentDiscount" target="discount.Discount">
+      <point x="0.0" y="-25.5" />
+      <point x="530.0" y="99.0" />
+      <point x="361.66666666666663" y="99.0" />
+      <point x="47.66666666666663" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="387.5" y="206.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
